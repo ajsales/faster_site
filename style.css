@@ -1,0 +1,132 @@
+body {
+  width: 65%;
+  margin: auto;
+}
+
+.bar {
+  background-color: #d8d8d8;
+}
+
+h1, p {
+  color: #3abdad;
+  font-family: "Lato";
+}
+
+#header .bar {
+  display: flex;
+  justify-content: space-between;
+}
+
+#header .bar h1 {
+  font-size: 1.5vw;
+  position: relative;
+  display: inline;
+  float: center;
+  text-transform: uppercase;
+}
+
+#first-head {
+  margin-left: 25%;
+}
+
+#end-head {
+  margin-right: 25%;
+}
+
+#banner {
+  position: relative;
+  text-align: center;
+}
+
+#banner img {
+  height: auto;
+  width: 100%;
+}
+
+#banner figcaption {
+  position: absolute;
+  top: 85%;
+  font-size: 4vw;
+  color: white;
+  font-family: "Lato";
+}
+
+#intro {
+  margin: 5% auto;
+
+}
+
+#intro h1 {
+  margin: 5% 10%;
+  font-size: 1.5vw;
+  line-height: 2;
+  text-align: justify;
+}
+
+.buttons {
+  margin: 5% auto;
+  text-align: center;
+}
+.button {
+  background-color: #3abdad; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;;
+  font-size: 1vw;
+  margin: 5px;
+}
+
+.button a {
+  background-color:#3abdad;
+  color: white;
+  font-family: "Lato";
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+#flyer {
+  text-align: center;
+}
+
+#flyer img {
+  width: 50%;
+  height: auto;
+}
+
+#keynote-speaker {
+  overflow: hidden;
+}
+#keynote-speaker .bar h1 {
+  margin-left: 5%;
+  font-size: 2vw;
+  text-transform: uppercase;
+}
+
+#keynote-speaker img {
+  width: 25%;
+  height: auto;
+  float: left;
+  margin: 10px;
+}
+
+#program .bar h1 {
+  margin-left: 5%;
+  font-size: 2vw;
+  text-transform: uppercase;
+}
+
+#program #text {
+  margin: 5% 10%;
+}
+
+.row p {
+  float: right;
+}
+
+.row h1 {
+  font-size: 125%;
+  margin: 0 5px;
+}
